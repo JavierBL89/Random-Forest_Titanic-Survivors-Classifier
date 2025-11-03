@@ -6,7 +6,7 @@ import numpy as np
 # --- Load Models ---
 models = {
     "Random Forest Classifier": joblib.load("models/random_forest_titanic.pkl"),
-    "XGBoost Classifier": joblib.load("models/xgboost_titanic_model.pkl"),
+    "XGBoost Classifier": joblib.load("models/xgboost_titanic_model.pkl")
 }
 
 # --- Streamlit UI ---
